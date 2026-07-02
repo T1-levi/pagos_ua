@@ -278,3 +278,67 @@ footer {
     margin-top: 50px;
   }
 }
+
+.logo-img{
+  height:60px;
+  width:auto;
+  object-fit:contain;
+  display:block;
+}
+
+@media (max-width:768px){
+  .logo-img{
+    height:45px;
+  }
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+}
+
+.logo-img{
+    width:70px;
+    height:70px;
+    object-fit:contain;
+}
+
+.logo-text{
+    display:flex;
+    flex-direction:column;
+    color:white;
+}
+
+.logo-text h2{
+    margin:0;
+    font-size:30px;
+    font-weight:700;
+    letter-spacing:1px;
+    line-height:1;
+}
+
+.logo-text span{
+    margin-top:4px;
+    font-size:15px;
+    font-weight:400;
+    letter-spacing:1px;
+}
+
+
+.logo-img{
+    width:72px;
+}
+
+.logo-text h2{
+    font-family: Georgia, serif;
+    font-size:40px;
+    font-weight:400;
+    letter-spacing:2px;
+}
+
+.logo-text span{
+    font-family: Georgia, serif;
+    font-size:18px;
+    letter-spacing:2px;
+}
