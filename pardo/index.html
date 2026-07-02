@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portal Académico Demo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <div class="circle">D</div>
+      <div>
+        <h2>INSTITUTO</h2>
+        <span>DEMO</span>
+      </div>
+    </div>
+
+    <div class="header-buttons">
+      <button>Iniciar sesión</button>
+      <button>Ayuda</button>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="content">
+
+      <div class="title-row">
+        <div>
+          <h1>Consulta y Selección de Cargos por Periodo</h1>
+          <p>Inicio &gt; Alumnos &gt; Cuentas de Alumno &gt; Pago en Línea</p>
+        </div>
+        <div class="student-info">
+          <strong>12345678-9 Alumno Demo</strong><br>
+          Julio 01, 2026 20:00 PM
+        </div>
+      </div>
+
+      <div class="box">
+        <h3>Seleccionar plan de estudios</h3>
+
+        <label>Plan de estudios: <span>*</span></label>
+        <select>
+          <option>1-Cocina Internacional - Plan Demo 2026</option>
+        </select>
+
+        <h3>Cargos Pendientes por Pagar</h3>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Año</th>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Fecha</th>
+                <th>Monto</th>
+                <th>Intereses</th>
+                <th>Multa</th>
+                <th>Total</th>
+                <th>Selección</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>2025</td>
+                <td>TCUO</td>
+                <td>CUOTA CENTRO DE FORMACIÓN TEC.</td>
+                <td>25-SEP-2025</td>
+                <td>$270.000</td>
+                <td>$0</td>
+                <td>$0</td>
+                <td>$290.448</td>
+                <td><input type="checkbox"></td>
+              </tr>
+
+              <tr>
+                <td>2025</td>
+                <td>TCUO</td>
+                <td>CUOTA CENTRO DE FORMACIÓN TEC.</td>
+                <td>25-OCT-2025</td>
+                <td>$270.000</td>
+                <td>$0</td>
+                <td>$0</td>
+                <td>$285.000</td>
+                <td><input type="checkbox"></td>
+              </tr>
+
+              <tr>
+                <td>2025</td>
+                <td>TCUO</td>
+                <td>CUOTA CENTRO DE FORMACIÓN TEC.</td>
+                <td>25-NOV-2025</td>
+                <td>$270.000</td>
+                <td>$0</td>
+                <td>$0</td>
+                <td>$285.000</td>
+                <td><input type="checkbox"></td>
+              </tr>
+
+              <tr>
+                <td>2025</td>
+                <td>TREP</td>
+                <td>CUOTA POR REPROGRAMACIÓN</td>
+                <td>25-ENE-2026</td>
+                <td>$270.000</td>
+                <td>$0</td>
+                <td>$0</td>
+                <td>$280.000</td>
+                <td><input type="checkbox"></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="actions">
+          <button class="red">Calcular Pagar</button>
+          <p>Presione el botón “Calcular total a pagar”, para poder continuar</p>
+        </div>
+
+        <div class="summary">
+          <p><strong>Saldo de Cuenta:</strong> <span>$1.433.139</span></p>
+          <p><strong>Total Seleccionado para Pagar:</strong> <span>0.00</span></p>
+          <p><strong>Porcentaje de Descuento del Pago:</strong> <span>0 %</span></p>
+          <p><strong>Descuento aplicable del Pago:</strong> <span>0.00</span></p>
+          <p><strong>Saldo Neto a Pagar:</strong> <span>0.00</span></p>
+        </div>
+
+        <button class="pay">Pago en Línea</button>
+
+      </div>
+
+      <footer>
+        © 2026 Sistema Académico Demo. Página ficticia de práctica.
+      </footer>
+
+    </section>
+  </main>
+
+</body>
+</html>
